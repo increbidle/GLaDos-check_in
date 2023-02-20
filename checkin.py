@@ -1,7 +1,9 @@
 import requests,json,os
 
 #填入glados账号对应cookie
+print(COOKIES)
 COOKIES = [""]
+print(COOKIES)
 
 cookies=COOKIES
 
