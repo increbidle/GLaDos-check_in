@@ -5,7 +5,7 @@ print(os.environ["COOKIES"])
 COOKIES = os.environ["COOKIES"]
 print(COOKIES)
 
-cookies=COOKIES
+cookies=COOKIES.split('&&')
 
 
 
